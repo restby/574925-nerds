@@ -65,12 +65,6 @@ openModal.addEventListener('click', function(evt) {
   } else {
       nameForm.focus();
   }
-  if(storageEmail) {
-    emailForm.value = storageEmail;
-    mailTextForm.focus();
-  } else {
-      emailForm.focus();
-  }
 });
 
 modalWindowClose.addEventListener('click', function(evt) {

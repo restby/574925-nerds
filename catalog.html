@@ -33,70 +33,71 @@
 			<h1 class="page-title">Магазин готовых шаблонов</h1>
 		</header>
 		<main class="catalog">
-			<div class="left-col">
-				<form class="form-filter-templates" action="https://echo.htmlacademy.ru" method="GET" aria-label="форма фильтра шаблонов по параметрам">
-					<fieldset class="first-filter-type">
-						<legend>Стоимость:</legend>
-		        <div class="range-filter">
-		          <div class="range-controls">
-		            <div class="scale">
-		              <div class="bar"></div>
-		            </div>
-		            <div class="toggle toggle-min"></div>
-		            <div class="toggle toggle-max"></div>
-		          </div>
-		          <div class="price-controls">
-		            <label class="min-price">от <input name="min-price" type="text" placeholder="0"></label>
-		            <label class="max-price">до <input name="max-price" type="text" placeholder="15000"></label>
-		          </div>
-		        </div>
-					</fieldset>
-					<fieldset class="second-filter-type">
-						<legend>Сетка:</legend>
-						<ul class="filter-templates-list">
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="adaptive" id="adaptive" aria-label="поле выбора типа сетки" checked>
-								<label class="filter-option-adaptive" for="adaptive">Адаптивная</label>
-							</li>
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="fixed" id="fixed" aria-label="поле выбора типа сетки">
-								<label class="filter-option-fixed" for="fixed">Фиксированная</label>
-							</li>
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="rubbery" id="rubbery" aria-label="поле выбора типа сетки">
-								<label class="filter-option-rubbery" for="rubbery">Резиновая</label>
-							</li>
-						</ul>
-					</fieldset>
-					<fieldset class="third-filter-type">
-						<legend>Особеннсти:</legend>
-						<ul class="filter-templates-list">
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="slider" aria-label="поле выбора дополнений к макету" name="slider" checked>
-								<label class="filter-option-slider" for="slider">Слайдер</label>
-							</li>
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="features" aria-label="поле выбора дополнений к макету" name="features">
-								<label class="filter-option-features" for="features">Блок преимуществ</label>
-							</li>
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="news" aria-label="поле выбора дополнений к макету" name="news" checked>
-								<label class="filter-option-news" for="news">Новости</label>
-							</li>
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="gallery" aria-label="поле выбора дополнений к макету" name="gallery">
-								<label class="filter-option-gallery" for="gallery">Галерея</label>
-							</li>
-							<li class="filter-templates-item">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="cat" aria-label="поле выбора дополнени к макету" name="cat">
-								<label class="filter-option-cat" for="cat">Корзина</label>
-							</li>
-						</ul>
-					</fieldset>
-					<button type="submit" aria-label="кнопка показать">Показать</button>
-				</form>
-			</div>
-			<div class="right-col">
+			<div class="container">
+				<div class="left-col">
+					<form class="form-filter-templates" action="https://echo.htmlacademy.ru" method="GET" aria-label="форма фильтра шаблонов по параметрам">
+						<fieldset class="first-filter-type">
+							<legend>Стоимость:</legend>
+			        <div class="range-filter">
+			          <div class="range-controls">
+			            <div class="scale">
+			              <div class="bar"></div>
+			            </div>
+			            <div class="toggle toggle-min"></div>
+			            <div class="toggle toggle-max"></div>
+			          </div>
+			          <div class="price-controls">
+			            <label class="min-price">от <input name="min-price" type="text" placeholder="0"></label>
+			            <label class="max-price">до <input name="max-price" type="text" placeholder="15000"></label>
+			          </div>
+			        </div>
+						</fieldset>
+						<fieldset class="second-filter-type">
+							<legend>Сетка:</legend>
+							<ul class="filter-templates-list">
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="adaptive" id="adaptive" aria-label="поле выбора типа сетки" checked>
+									<label class="filter-option-adaptive" for="adaptive">Адаптивная</label>
+								</li>
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="fixed" id="fixed" aria-label="поле выбора типа сетки">
+									<label class="filter-option-fixed" for="fixed">Фиксированная</label>
+								</li>
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="rubbery" id="rubbery" aria-label="поле выбора типа сетки">
+									<label class="filter-option-rubbery" for="rubbery">Резиновая</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class="third-filter-type">
+							<legend>Особеннсти:</legend>
+							<ul class="filter-templates-list">
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="slider" aria-label="поле выбора дополнений к макету" name="slider" checked>
+									<label class="filter-option-slider" for="slider">Слайдер</label>
+								</li>
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="features" aria-label="поле выбора дополнений к макету" name="features">
+									<label class="filter-option-features" for="features">Блок преимуществ</label>
+								</li>
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="news" aria-label="поле выбора дополнений к макету" name="news" checked>
+									<label class="filter-option-news" for="news">Новости</label>
+								</li>
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="gallery" aria-label="поле выбора дополнений к макету" name="gallery">
+									<label class="filter-option-gallery" for="gallery">Галерея</label>
+								</li>
+								<li class="filter-templates-item">
+									<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="cat" aria-label="поле выбора дополнени к макету" name="cat">
+									<label class="filter-option-cat" for="cat">Корзина</label>
+								</li>
+							</ul>
+						</fieldset>
+						<button type="submit" aria-label="кнопка показать">Показать</button>
+					</form>
+				</div>
+				<div class="right-col">
 				<div class="sort-wrapper">
 					<span class="form-sort-text">Сортировать:</span>
 					<form class="form-sort-templates" action="https://echo.htmlacademy.ru" method="GET" aria-label="форма сортировки шаблонов по параметрам">
@@ -129,64 +130,64 @@
 					<h2 class="visually-hidden">Результат выбора</h2>
 					<ul class="results-list">
 						<li class="results-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
-							<img width="360" height="576" src="img/catalog-template-sedona.jpg" alt="Шаблон Sedona">
-              <section class="modal-template-info">
-                <h2 class="visually-hidden">Описание шаблона "Sedona"</h2>
-                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Sedona">Sedona</a>
-                <p class="template-info-description">Информационный сайт для туристов</p>
-                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
-              </section>
+	              <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+								<img width="360" height="576" src="img/catalog-template-sedona.jpg" alt="Шаблон Sedona">
+	              <section class="modal-template-info">
+	                <h2 class="visually-hidden">Описание шаблона "Sedona"</h2>
+	                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Sedona">Sedona</a>
+	                <p class="template-info-description">Информационный сайт для туристов</p>
+	                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
+	              </section>
 						</li>
 						<li class="results-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
-							<img width="360" height="576" src="img/catalog-template-pink.jpg" alt="Шаблон Pink">
-              <section class="modal-template-info">
-                <h2 class="visually-hidden">Описание шаблона "Pink"</h2>
-                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Pink App">Pink App</a>
-                <p class="template-info-description">Продуктовый лендинг приложения для iOS и Android</p>
-                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
-              </section>
+								<svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+								<img width="360" height="576" src="img/catalog-template-pink.jpg" alt="Шаблон Pink">
+	              <section class="modal-template-info">
+	                <h2 class="visually-hidden">Описание шаблона "Pink"</h2>
+	                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Pink App">Pink App</a>
+	                <p class="template-info-description">Продуктовый лендинг приложения для iOS и Android</p>
+	                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
+	              </section>
 						</li>
 						<li class="results-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
-							<img width="360" height="576" src="img/catalog-template-barbershop.jpg" alt="Шаблон Барбершоп Бородинский">
-              <section class="modal-template-info">
-                <h2 class="visually-hidden">Описание шаблона "Барбершоп Бородинский"</h2>
-                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Barbershop">Barbershop</a>
-                <p class="template-info-description">Сайт салоны красоты. Для мужчин, да.</p>
-                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
-              </section>
+								<svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+								<img width="360" height="576" src="img/catalog-template-barbershop.jpg" alt="Шаблон Барбершоп Бородинский">
+	              <section class="modal-template-info">
+	                <h2 class="visually-hidden">Описание шаблона "Барбершоп Бородинский"</h2>
+	                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Barbershop">Barbershop</a>
+	                <p class="template-info-description">Сайт салоны красоты. Для мужчин, да.</p>
+	                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
+	              </section>
 						</li>
 						<li class="results-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
-							<img width="360" height="576" src="img/catalog-template-mishka.jpg" alt="Шаблон Mishka">
-              <section class="modal-template-info">
-                <h2 class="visually-hidden">Описание шаблона "Mishka"</h2>
-                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Mishka">Mishka</a>
-                <p class="template-info-description">Интернет-магазин вязаных игрушек</p>
-                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
-              </section>
+								<svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+								<img width="360" height="576" src="img/catalog-template-mishka.jpg" alt="Шаблон Mishka">
+	              <section class="modal-template-info">
+	                <h2 class="visually-hidden">Описание шаблона "Mishka"</h2>
+	                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета Mishka">Mishka</a>
+	                <p class="template-info-description">Интернет-магазин вязаных игрушек</p>
+	                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
+	              </section>
 						</li>
 						<li class="results-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
-							<img width="360" height="576" src="img/catalog-template-aplus.jpg" alt="шаблон Aplus">
-              <section class="modal-template-info">
-                <h2 class="visually-hidden">Описание шаблона "Aplus"</h2>
-                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета A Plus">A Plus</a>
-                <p class="template-info-description">Лендинг курсов повышения квалификации</p>
-                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
-              </section>
+								<svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+								<img width="360" height="576" src="img/catalog-template-aplus.jpg" alt="шаблон Aplus">
+	              <section class="modal-template-info">
+	                <h2 class="visually-hidden">Описание шаблона "Aplus"</h2>
+	                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета A Plus">A Plus</a>
+	                <p class="template-info-description">Лендинг курсов повышения квалификации</p>
+	                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
+	              </section>
 						</li>
 						<li class="results-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
-							<img width="360" height="576" src="img/catalog-template-kvast.jpg" alt="Шаблон КВАСТ">
-              <section class="modal-template-info">
-                <h2 class="visually-hidden">Описание шаблона "КВАСТ"</h2>
-                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета КВАСТ">КВАСТ</a>
-                <p class="template-info-description">Промо-сайт производителя крафтового кваса</p>
-                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
-              </section>
+								<svg xmlns="http://www.w3.org/2000/svg" width="360" height="40"><path fill="#e9e9e9" d="M356 0H4C1.8 0 0 1.8 0 4v36h360V4c0-2.2-1.8-4-4-4zM22.99 27a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.012 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm23.01 0a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+								<img width="360" height="576" src="img/catalog-template-kvast.jpg" alt="Шаблон КВАСТ">
+	              <section class="modal-template-info">
+	                <h2 class="visually-hidden">Описание шаблона "КВАСТ"</h2>
+	                <a class="template-info-link" href="#" aria-label="ссылка на страницу макета КВАСТ">КВАСТ</a>
+	                <p class="template-info-description">Промо-сайт производителя крафтового кваса</p>
+	                <a class="btn-template-info" href="#" aria-label="кнопка добиваить в корзину">9 900 Руб.</a>
+	              </section>
 						</li>
 					</ul>
 					<ul class="pagination-list">
@@ -204,6 +205,7 @@
 	          </li>
 	        </ul>
 				</section>
+				</div>
 			</div>
 		</main>
 		<footer class="main-footer">
